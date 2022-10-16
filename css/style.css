@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*Logo and it's transition*/
+#logo-container {
+    display: flex;
+    justify-content: center;
+}
+#logo-container img{
+    height: 250px;
+    width: 250px;
+}
+
+
+/*Styling main lobby header*/
+header {
+    min-height: 750px;
+    width: 100%;
+    background: url("../Images/Flowing Tentacles.jpg") no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 10px;
+}
+.flex-container div {
+    height: 175px;
+    min-width: 100px;
+}
+#top-head-container {
+    margin-top: 25px;
+}
+#middle-head-row {
+    height: 140px;
+}
+#bottom-head-container {
+    padding-bottom: 65px;
+}
+.flex-container .projects {
+    background: url("../Images/Sandoval\ Stable\ White.png") no-repeat;
+    background-size: cover;
+    height: 150px;
+    width: 150px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+.flex-container .PS1 {
+    max-height: 120px;
+    max-width: 120px;
+    display: flex; 
+    align-self: end;
+}
+.flex-container .PS2 {
+    max-height: 156px;
+    max-width: 156px;  
+}
+.flex-container .PS3 {
+    max-height: 122px;
+    max-width: 122px;  
+}
+.flex-container .PS4 {
+    max-height: 117px;
+    max-width: 117px;
+    display: flex; 
+    align-self: end;
+    justify-content: end;  
+}
+.flex-container .PS5 {
+    max-height: 132px;
+    max-width: 132px;  
+}
+.flex-container .PS6 {
+    max-height: 127px;
+    max-width: 127px;  
+}
+.flex-container .PS7 {
+    max-height: 112px;
+    max-width: 112px;  
+    display: flex; 
+    justify-content: end;
+}
+.flex-container .last {
+    margin-top: 0;
+}
+.flex-container .alignend {
+    display: flex;
+    align-self: flex-end;
+}
+.blackbox {
+    background-color: black;
+    width: 100%;
+    height: 25px;
+}
