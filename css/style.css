@@ -3,7 +3,7 @@
     padding: 0;
 }
 
-/*Logo and it's transition*/
+/*Logo*/
 #logo-container {
     display: flex;
     justify-content: center;
@@ -14,7 +14,7 @@
 }
 
 
-/*Styling main lobby header*/
+/*Main lobby header*/
 header {
     min-height: 750px;
     width: 100%;
@@ -51,20 +51,24 @@ header {
     width: 150px;
     border: 1px solid white;
     border-radius: 50%;
+    transition: transform .2s
 }
 .flex-container .PS1 {
     max-height: 120px;
     max-width: 120px;
     display: flex; 
     align-self: end;
+    transition: transform .2s
 }
 .flex-container .PS2 {
     max-height: 156px;
     max-width: 156px;  
+    transition: transform .2s
 }
 .flex-container .PS3 {
     max-height: 122px;
     max-width: 122px;  
+    transition: transform .2s
 }
 .flex-container .PS4 {
     max-height: 117px;
@@ -72,20 +76,24 @@ header {
     display: flex; 
     align-self: end;
     justify-content: end;  
+    transition: transform .2s
 }
 .flex-container .PS5 {
     max-height: 132px;
     max-width: 132px;  
+    transition: transform .2s
 }
 .flex-container .PS6 {
     max-height: 127px;
     max-width: 127px;  
+    transition: transform .2s
 }
 .flex-container .PS7 {
     max-height: 112px;
     max-width: 112px;  
     display: flex; 
     justify-content: end;
+    transition: transform .2s
 }
 .flex-container .last {
     margin-top: 0;
@@ -94,6 +102,12 @@ header {
     display: flex;
     align-self: flex-end;
 }
+/* Zoom on item hover */
+.projects:hover {
+    transform: scale(1.3);
+}
+
+/*  */
 .blackbox {
     background-color: black;
     width: 100%;
